@@ -1,0 +1,197 @@
+/* Test-1: Responsive - @media */
+@media screen {
+  #test-1 span {
+    color: green;
+  }
+}
+
+/* Test-6: Selectors - * */
+#test-6 * { 
+    color: green;
+}
+
+/* Test-7: Selectors - E */
+#test-7 div { 
+    color: green;
+}
+
+/* Test-8: Selectors - E[foo] */
+#test-8 [foo] { 
+    color: green;
+}
+
+/* Test-9: Selectors - E[foo="bar"]  */
+#test-9 [foo="bar"] { 
+    color: green;
+}
+/* Test-10: Selectors - E[foo~="bar"]  */
+#test-10 [foo~="bar"] { 
+    color: green;
+}
+
+/* Test-11: Selectors - E[foo^="bar"]  */
+#test-11 [foo^="bar"] { 
+    color: green;
+}
+
+/* Test-12: Selectors - E[foo$="bar"]  */
+#test-12 [foo$="bar"] { 
+    color: green;
+}
+
+/* Test-13: Selectors - E[foo*="bar"]  */
+#test-13 [foo*="bar"] { 
+    color: green;
+}
+
+/* Test-14: Selectors - E:nth-child(n)  */
+#test-14 :nth-child(2) { 
+    color: green;
+}
+
+/* Test-15: Selectors - E:nth-last-child(n)  */
+#test-15 :nth-last-child(2) { 
+    color: green;
+}
+
+/* Test-16: Selectors - E:nth-of-type(n)  */
+#test-16 span:nth-of-type(2) { 
+    color: green;
+}
+
+/* Test-17: Selectors - E:nth-last-of-type(n)  */
+#test-17 span:nth-last-of-type(2) { 
+    color: green;
+}
+
+/* Test-18: Selectors - E:first-child  */
+#test-18 :first-child { 
+    color: green;
+}
+
+/* Test-19: Selectors - E:last-child  */
+#test-19 :last-child { 
+    color: green;
+}
+
+/* Test-20: Selectors - E:first-of-type  */
+#test-20 span:first-of-type { 
+    color: green;
+}
+
+/* Test-21: Selectors - E:last-of-type  */
+#test-21 span:last-of-type { 
+    color: green;
+}
+
+/* Test-22: Selectors - E:empty  */
+#test-22 :empty { 
+    width: 1em;
+    min-width: 1em;
+    height: 1em;
+    min-height: 1em;
+    display:inline-block;
+    background-color: green;
+    zoom: 1;
+    *display: inline;
+}
+
+/* Test-23: Selectors - E:link  */
+#test-23 a:link { 
+    color: green;
+}
+
+/* Test-24: Selectors - E:visited  */
+#test-24 a:visited { 
+    color: green;
+}
+
+/* Test-25: Selectors - E:active  */
+#test-25 a:active { 
+    color: green;
+}
+
+/* Test-26: Selectors - E:hover  */
+#test-26 :hover { 
+    color: green;
+}
+/* Test-27: Selectors - E:focus  */
+#test-27 :focus { 
+    color: green;
+}
+/* Test-28: Selectors - E:target  */
+#test-28 :target { 
+    color: green;
+}
+
+/* Test-29: Selectors - E::first-line  */
+#test-29 ::first-line { 
+    color: green;
+}
+
+/* Test-30: Selectors - E::first-letter  */
+#test-30 ::first-letter { 
+    color: green;
+}
+
+/* Test-31: Selectors - E::before  */
+#test-31 ::before { 
+    content: "E::before";
+    color: green;
+}
+
+/* Test-32: Selectors - E::after  */
+#test-32 ::after { 
+    content: "E::after";
+    color: green;
+}
+
+/* Test-33: Selectors - E.classname  */
+#test-33 .classname { 
+    color: green;
+}
+
+/* Test-34: Selectors - E#id  */
+#test-34 #id { 
+    color: green;
+}
+
+/* Test-35: Selectors - E:not(s)  */
+#test-35 :not(span) { 
+    color: green;
+}
+
+/* Test-36: Selectors - E F  */
+#test-36 a span { 
+    color: green;
+}
+
+/* Test-37: Selectors - E > F  */
+#test-37 a > span { 
+    color: green;
+}
+
+/* Test-38: Selectors - E + F  */
+#test-38 a + span { 
+    color: green;
+}
+
+/* Test-39: Selectors - E ~ F  */
+#test-39 a ~ span { 
+    color: green;
+}
+
+/* Test-40: Selectors - E ~ F  */
+@font-face {
+    font-family: testFont;
+    src: url('../webfonts/LeagueScriptNumberOne-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../webfonts/LeagueScriptNumberOne-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../webfonts/LeagueScriptNumberOne-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../webfonts/LeagueScriptNumberOne-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/LeagueScriptNumberOne-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+#test-40 span { 
+    font-family: testFont;
+    color: green;
+}
+

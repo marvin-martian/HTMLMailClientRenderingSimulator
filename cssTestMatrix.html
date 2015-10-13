@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Mail CSS and Element Test</title>
+<link rel="stylesheet" type="text/css" href="Resources/Public/TestMatrix/css/tests.css">
+<style type="text/css">
+/* Test-1: Responsive - @media */
+@media screen {
+  #test-1 span {
+    color: green;
+  }
+}
+
+/* Test-6: Selectors - * */
+#test-6 * { 
+    color: green;
+}
+
+/* Test-7: Selectors - E */
+#test-7 div { 
+    color: green;
+}
+
+/* Test-8: Selectors - E[foo] */
+#test-8 [foo] { 
+    color: green;
+}
+
+/* Test-9: Selectors - E[foo="bar"]  */
+#test-9 [foo="bar"] { 
+    color: green;
+}
+/* Test-10: Selectors - E[foo~="bar"]  */
+#test-10 [foo~="bar"] { 
+    color: green;
+}
+
+/* Test-11: Selectors - E[foo^="bar"]  */
+#test-11 [foo^="bar"] { 
+    color: green;
+}
+
+/* Test-12: Selectors - E[foo$="bar"]  */
+#test-12 [foo$="bar"] { 
+    color: green;
+}
+
+/* Test-13: Selectors - E[foo*="bar"]  */
+#test-13 [foo*="bar"] { 
+    color: green;
+}
+
+/* Test-14: Selectors - E:nth-child(n)  */
+#test-14 :nth-child(2) { 
+    color: green;
+}
+
+/* Test-15: Selectors - E:nth-last-child(n)  */
+#test-15 :nth-last-child(2) { 
+    color: green;
+}
+
+/* Test-16: Selectors - E:nth-of-type(n)  */
+#test-16 span:nth-of-type(2) { 
+    color: green;
+}
+
+/* Test-17: Selectors - E:nth-last-of-type(n)  */
+#test-17 span:nth-last-of-type(2) { 
+    color: green;
+}
+
+/* Test-18: Selectors - E:first-child  */
+#test-18 :first-child { 
+    color: green;
+}
+
+/* Test-19: Selectors - E:last-child  */
+#test-19 :last-child { 
+    color: green;
+}
+
+/* Test-20: Selectors - E:first-of-type  */
+#test-20 span:first-of-type { 
+    color: green;
+}
+
+/* Test-21: Selectors - E:last-of-type  */
+#test-21 span:last-of-type { 
+    color: green;
+}
+
+/* Test-22: Selectors - E:empty  */
+#test-22 :empty { 
+    width: 1em;
+    min-width: 1em;
+    height: 1em;
+    min-height: 1em;
+    display:inline-block;
+    background-color: green;
+    zoom: 1;
+    *display: inline;
+}
+
+/* Test-23: Selectors - E:link  */
+#test-23 a:link { 
+    color: green;
+}
+
+/* Test-24: Selectors - E:visited  */
+#test-24 a:visited { 
+    color: green;
+}
+
+/* Test-25: Selectors - E:active  */
+#test-25 a:active { 
+    color: green;
+}
+
+/* Test-26: Selectors - E:hover  */
+#test-26 :hover { 
+    color: green;
+}
+/* Test-27: Selectors - E:focus  */
+#test-27 :focus { 
+    color: green;
+}
+/* Test-28: Selectors - E:target  */
+#test-28 :target { 
+    color: green;
+}
+
+/* Test-29: Selectors - E::first-line  */
+#test-29 ::first-line { 
+    color: green;
+}
+
+/* Test-30: Selectors - E::first-letter  */
+#test-30 ::first-letter { 
+    color: green;
+}
+
+/* Test-31: Selectors - E::before  */
+#test-31 ::before { 
+    content: "E::before";
+    color: green;
+}
+
+/* Test-32: Selectors - E::after  */
+#test-32 ::after { 
+    content: "E::after";
+    color: green;
+}
+
+/* Test-33: Selectors - E.classname  */
+#test-33 .classname { 
+    color: green;
+}
+
+/* Test-34: Selectors - E#id  */
+#test-34 #id { 
+    color: green;
+}
+
+/* Test-35: Selectors - E:not(s)  */
+#test-35 :not(span) { 
+    color: green;
+}
+
+/* Test-36: Selectors - E F  */
+#test-36 a span { 
+    color: green;
+}
+
+/* Test-37: Selectors - E > F  */
+#test-37 a > span { 
+    color: green;
+}
+
+/* Test-38: Selectors - E + F  */
+#test-38 a + span { 
+    color: green;
+}
+
+/* Test-39: Selectors - E ~ F  */
+#test-39 a ~ span { 
+    color: green;
+}
+
+/* Test-40: Selectors - E ~ F  */
+@font-face {
+    font-family: testFont;
+    src: url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.eot'); /* IE9 Compat Modes */
+    src: url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+#test-40 span { 
+    font-family: testFont;
+    color: green;
+}
+
+
+</style>
+<style type="text/css">
+/* Test-2: Style Element - <style> in <head> */
+#test-2 span {
+  color: green;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="Resources/Public/TestMatrix/css/test-4.css">
+</head>
+<body style="background-color: #EEE8D5;">
+  <link rel="stylesheet" type="text/css" href="Resources/Public/TestMatrix/css/tests.css">
+  <style type="text/css">
+/* Test-1: Responsive - @media */
+@media screen {
+  #test-1 span {
+    color: green;
+  }
+}
+
+/* Test-6: Selectors - * */
+#test-6 * { 
+    color: green;
+}
+
+/* Test-7: Selectors - E */
+#test-7 div { 
+    color: green;
+}
+
+/* Test-8: Selectors - E[foo] */
+#test-8 [foo] { 
+    color: green;
+}
+
+/* Test-9: Selectors - E[foo="bar"]  */
+#test-9 [foo="bar"] { 
+    color: green;
+}
+/* Test-10: Selectors - E[foo~="bar"]  */
+#test-10 [foo~="bar"] { 
+    color: green;
+}
+
+/* Test-11: Selectors - E[foo^="bar"]  */
+#test-11 [foo^="bar"] { 
+    color: green;
+}
+
+/* Test-12: Selectors - E[foo$="bar"]  */
+#test-12 [foo$="bar"] { 
+    color: green;
+}
+
+/* Test-13: Selectors - E[foo*="bar"]  */
+#test-13 [foo*="bar"] { 
+    color: green;
+}
+
+/* Test-14: Selectors - E:nth-child(n)  */
+#test-14 :nth-child(2) { 
+    color: green;
+}
+
+/* Test-15: Selectors - E:nth-last-child(n)  */
+#test-15 :nth-last-child(2) { 
+    color: green;
+}
+
+/* Test-16: Selectors - E:nth-of-type(n)  */
+#test-16 span:nth-of-type(2) { 
+    color: green;
+}
+
+/* Test-17: Selectors - E:nth-last-of-type(n)  */
+#test-17 span:nth-last-of-type(2) { 
+    color: green;
+}
+
+/* Test-18: Selectors - E:first-child  */
+#test-18 :first-child { 
+    color: green;
+}
+
+/* Test-19: Selectors - E:last-child  */
+#test-19 :last-child { 
+    color: green;
+}
+
+/* Test-20: Selectors - E:first-of-type  */
+#test-20 span:first-of-type { 
+    color: green;
+}
+
+/* Test-21: Selectors - E:last-of-type  */
+#test-21 span:last-of-type { 
+    color: green;
+}
+
+/* Test-22: Selectors - E:empty  */
+#test-22 :empty { 
+    width: 1em;
+    min-width: 1em;
+    height: 1em;
+    min-height: 1em;
+    display:inline-block;
+    background-color: green;
+    zoom: 1;
+    *display: inline;
+}
+
+/* Test-23: Selectors - E:link  */
+#test-23 a:link { 
+    color: green;
+}
+
+/* Test-24: Selectors - E:visited  */
+#test-24 a:visited { 
+    color: green;
+}
+
+/* Test-25: Selectors - E:active  */
+#test-25 a:active { 
+    color: green;
+}
+
+/* Test-26: Selectors - E:hover  */
+#test-26 :hover { 
+    color: green;
+}
+/* Test-27: Selectors - E:focus  */
+#test-27 :focus { 
+    color: green;
+}
+/* Test-28: Selectors - E:target  */
+#test-28 :target { 
+    color: green;
+}
+
+/* Test-29: Selectors - E::first-line  */
+#test-29 ::first-line { 
+    color: green;
+}
+
+/* Test-30: Selectors - E::first-letter  */
+#test-30 ::first-letter { 
+    color: green;
+}
+
+/* Test-31: Selectors - E::before  */
+#test-31 ::before { 
+    content: "E::before";
+    color: green;
+}
+
+/* Test-32: Selectors - E::after  */
+#test-32 ::after { 
+    content: "E::after";
+    color: green;
+}
+
+/* Test-33: Selectors - E.classname  */
+#test-33 .classname { 
+    color: green;
+}
+
+/* Test-34: Selectors - E#id  */
+#test-34 #id { 
+    color: green;
+}
+
+/* Test-35: Selectors - E:not(s)  */
+#test-35 :not(span) { 
+    color: green;
+}
+
+/* Test-36: Selectors - E F  */
+#test-36 a span { 
+    color: green;
+}
+
+/* Test-37: Selectors - E > F  */
+#test-37 a > span { 
+    color: green;
+}
+
+/* Test-38: Selectors - E + F  */
+#test-38 a + span { 
+    color: green;
+}
+
+/* Test-39: Selectors - E ~ F  */
+#test-39 a ~ span { 
+    color: green;
+}
+
+/* Test-40: Selectors - E ~ F  */
+@font-face {
+    font-family: testFont;
+    src: url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.eot'); /* IE9 Compat Modes */
+    src: url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('Resources/Public/TestMatrix/webfonts/LeagueScriptNumberOne-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+#test-40 span { 
+    font-family: testFont;
+    color: green;
+}
+
+
+</style>
+  <style type="text/css">
+/* Test-3: Style Element - <style> in <body> */
+#test-3 span {
+  color: green;
+}
+</style>
+  <link rel="stylesheet" type="text/css" href="Resources/Public/TestMatrix/css/test-5.css">
+  <center>
+    <table style="width: 600px; max-width: 600px; table-layout: fixed; background-color: #ffffff; border-collapse: collapse;" width="600">
+      <tr>
+        <td>
+          <div style="text-align: center;">
+            <h2>HTML Mail CSS and Element Test</h2>
+            <p>In a modern HTML5/CSS-3 standards compliant web browser all these tests should pass except where noted.</p>
+          </div>
+          <table style="table-layout: fixed;" width="100%">
+            <thead>
+              <tr>
+                <th style="background-color: black; color: white;">Test</th>
+                <th style="background-color: black; color: white;">Result</th>
+                <th style="background-color: black; color: white;">Success Condition</th>
+                <th style="background-color: black; color: white;" width="10%">Expect</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="4" style="background-color: black; color: white; padding: 0.5em;">This test matrix is based upon "CSS Support Guide for Email Clients" by <a
+                  href="https://www.campaignmonitor.com/css/" style="background-color: black; color: white;" target="_blank">Campaign Monitor</a>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Responsive</b></td>
+              </tr>
+
+              <!-- Test-1: Responsive - @media -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>@media</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color: red;" id="test-1"><span>@media</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-7ab32a7e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Style Element</b></td>
+              </tr>
+
+              <!-- Test-2: Style Element - <style> in <head>  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>&lt;style&gt; in &lt;head&gt;</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color: red;" id="test-2"><span>&lt;style&gt; in &lt;head&gt;</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-77d7804e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-3: Style Element - <style> in <body>  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>&lt;style&gt; in &lt;body&gt;</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color: red;" id="test-3"><span>&lt;style&gt; in &lt;body&gt;</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ecf44f62" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Link Element</b></td>
+              </tr>
+
+              <!-- Test-4: Link Element - <link> in <head>  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>&lt;link&gt; in &lt;head&gt;</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color: red;" id="test-4"><span>&lt;link&gt; in &lt;head&gt;</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-686e5a90" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-5: Link Element - <link> in <body>  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>&lt;link&gt; in &lt;body&gt;</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color: red;" id="test-5"><span>&lt;link&gt; in &lt;body&gt;</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-2dee6269" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Selectors</b></td>
+              </tr>
+
+              <!-- Test-6: Selectors - *  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>*</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-6"><div>*</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-9caf0af0" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-7: Selectors - E  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-7"><div>E</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-67d1f2b8" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-8: Selectors - E[foo]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-8"><div foo="bar">E[foo]</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b58045b6" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-9: Selectors - E[foo="bar"]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo="bar"]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-9"><div foo="bar">E[foo="bar"]</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-1df64038" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-10: Selectors - E[foo~="bar"]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo~="bar"]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-10"><div foo="foo bar foo">E[foo~="bar"]</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-983f86ca" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-11: Selectors - E[foo^="bar"]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo^="bar"]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-11"><div foo="barfoo">E[foo^="bar"]</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ebccbef8" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-12: Selectors - E[foo$="bar"]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo$="bar"]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-12"><div foo="foobar">E[foo$="bar"]</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a638e828" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-13: Selectors - E[foo*="bar"]  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E[foo*="bar"]</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-13"><span foo="foobar">E</span><b foo="foobar">[</b><span foo="foobar">foo*="</span><i foo="foobar">bar</i><span foo="foobar">"</span><b
+                  foo="foobar">]</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-8f0f583a" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-14: Selectors - E:nth-child(n)  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:nth-child(n)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-14"><span></span><span>E:nth-child(n)</span><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b20730b4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-15: Selectors - E:nth-last-child(n)  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:nth-last-child(n)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-15"><span></span><span></span><span>E:nth-last-child(n)</span><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-e913f855" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-16: Selectors - E:nth-of-type(n)  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:nth-of-type(n)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-16"><b></b><span></span><span>E:nth-of-type(n)</span><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-fb5cbeae" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-17: Selectors - E:nth-last-of-type(n)  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:nth-last-of-type(n)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-17"><b></b><span></span><span></span><span>E:nth-last-of-type(n)</span><span></span><b></b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-563aaf46" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-18: Selectors - E:first-child  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:first-child</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-18"><span>E:first-child</span><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-31e4a392" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-19: Selectors - E:last-child  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:last-child</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-19"><span></span><span>E:last-child</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ae360614" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-20: Selectors - E:first-of-type  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:first-of-type</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-20"><b></b><span>E:first-of-type</span><span></span><b></b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ab9f33e9" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-21: Selectors - E:last-of-type  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:last-of-type</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-21"><b></b><span></span><span>E:last-of-type</span><b></b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ba9f37d7" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-22: Selectors - E:empty  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:empty</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-22"><span></span><span> </span><span> </span><span> </span><span> </span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-203d2628" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-23: Selectors - E:link  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:link</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-23"><a href="#test-23">E:link</a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text when not visited</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-9a0ceb70" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-24: Selectors - E:visited  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:visited</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-24"><a href="">E:visited</a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text when visited</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-68a0d37a" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-25: Selectors - E:active  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:active</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-25"><a href="">E:active</a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on mouse down</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-c997d947" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-26: Selectors - E:hover  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:hover</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-26"><span>E:hover</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on mouse hover</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-fc356b6f" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-27: Selectors - E:focus  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:focus</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-27"><input value="E:focus"></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on input focus</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-78fa5c2b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-28: Selectors - E:target  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:target</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-28"><a id="target" href="#target">E:target</a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on anchor click</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-19a2229a" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-29: Selectors - E::first-line  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E::first-line</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-29"><p>E::first-line E::first-line E::first-line E::first-line E::first-line E::first-line</p></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on first line</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-f370d5ef" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-30: Selectors - E::first-char  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E::first-char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-30"><p>E::first-char</p></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on first char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a97ea287" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-31: Selectors - E::before  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E::before</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-31"><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-8293eee4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-32: Selectors - E::after  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E::after</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-32"><span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-2c3e6c38" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-33: Selectors - E.classname  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E.classname</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-33"><span class="classname">E.classname</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-72ebb98f" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-34: Selectors - E#id  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E#id</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-34"><span id="id">E#id</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-56f321f1" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-35: Selectors - E:not(s)  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E:not(s)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-35"><a>E</a><span>:not(s)</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on first char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-479f5a3e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-36: Selectors - E F  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E F</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-36"><a>E <span>F</span></a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on last char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-1062cc7e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-37: Selectors - E > F  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E &gt; F</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-37"><a>E <span>&gt;</span> <i>F</i></a></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on center char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-9255cdd9" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-38: Selectors - E + F  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E + F</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-38"><span>E</span><a>+</a><span>F</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on last char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-c1c902af" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-39: Selectors - E ~ F  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>E ~ F</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-39"><a>E</a> <span>~</span> <span>F</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text on last 2 chars</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6545871c" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Text &amp; Fonts</b></td>
+              </tr>
+
+              <!-- Test-40: Text & Fonts - @font-face  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>@font-face</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-40"><span>@font-face</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">script font</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-0494e178" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-41: Text & Fonts - direction  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>direction</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-41" style="color: red; direction: rtl;"><span style="color: green;">direction</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">right aligned text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-759976bd" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-42: Text & Fonts - font  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-42"><span style="color: green; font: italic small-caps bold 1em sans-serif;">font</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">italic small-caps bold sans-serif text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-3a74c28b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-43: Text & Fonts - font-family -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font-family</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-43"><span style="color: green; font-family: monospace;">font-family</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">monospace font text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-10e6a066" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-44: Text & Fonts - font-style -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font-style</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-44"><span style="color: green; font-style: italic;">font-style</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">italic text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-838369bc" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-45: Text & Fonts - font-variant  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font-variant</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-45"><span style="color: green; font-variant: small-caps;">font-variant</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">small-caps text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b018aa62" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-46: Text & Fonts - font-size  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font-size</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-46"><span style="font-size: small;"><span style="color: green; font-size: smaller;">font-size</span></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">smaller sized text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b313d518" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-47: Text & Fonts - font-weight-->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>font-weight</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-47"><span style="color: green; font-weight: bold;">font-weight</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">bold text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-336fb543" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-48: Text & Fonts - letter-spacing  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>letter-spacing</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-48"><span style="color: green; letter-spacing: 1em;">letter-spacing</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">spaced char</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-3f2a28a9" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-49: Text & Fonts - line-height  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>line-height</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-49"><div style="color: green; line-height: 0em;">line-height line-height line-height line-height</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">single line of text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-01c23cbf" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-50: Text & Fonts - text-align -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-align</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-50"><div style="color: green; text-align: right;">text-align</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">right aligned text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-70de8d97" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-51: Text & Fonts - text-decoration -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-decoration</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-51"><div style="color: green; text-decoration: underline;">text-decoration</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">underlined text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-8a67db55" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-52: Text & Fonts - text-indent  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-indent</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-52"><div style="color: green; text-indent: 1em;">text-indent</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">indented text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-c26dc4a9" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-53: Text & Fonts - text-overflow CSS3  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-overflow CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-53"><div style="color: green; width: 4em; white-space: nowrap; overflow: hidden; text-overflow: clip;">text-overflow CSS3</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">clipped text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-04f887a4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-54: Text & Fonts - text-shadow CSS3  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-shadow CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-54"><div style="text-shadow: 2px 2px green;">text-shadow CSS3</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text shadow</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6b640d21" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-55: Text & Fonts - text-transform  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-transform</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-55"><div style="color: green; text-transform: uppercase;">text-transform</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">uppercase text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-039c0907" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-56: Text & Fonts - white-space  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>white-space</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-56"><div style="color: green; width: 8em; white-space: nowrap;">white-space white-space white-space white-space</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;"><br><br>non-wrapping text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-51a13abd" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-57: Text & Fonts - word-spacing  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>word-spacing</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-57"><div style="color: green; word-spacing: -2em;">word-spacing word-spacing</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">negative spaces between words</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a7b28bb1" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-58: Text & Fonts - word-wrap CSS3  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>word-wrap CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-58"><div style="color: green; width: 8em; word-wrap: break-word;">wordwrapCSS3wordwrapCSS3</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">word wrap on 2 lines</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-90ab9a1e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-59: Text & Fonts - vertical-align  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>vertical-align</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-59"><span style="color: green; vertical-align: sub;">vertical</span>-align</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">sub green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-9735bd76" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-60: Text & Fonts - text-fill-color CSS3  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-fill-color CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-60"><span style="text-fill-color: green; -webkit-text-fill-color: green;">text-fill-color CSS3 </span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-66291fe2"><span style="color: green; font-size:0.8em;">WEBKIT ONLY</span></td>
+              </tr>
+
+              <!-- Test-61: Text & Fonts - text-fill-stroke CSS3  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>text-fill-stroke CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-61"><b style="text-stroke: 1px green; -webkit-text-stroke: 1px green;">text-fill-stroke CSS3</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green stroked text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-2fa9ad72"><span style="color: green;font-size:0.8em;">WEBKIT ONLY</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Color &amp; Background</b></td>
+              </tr>
+
+              <!-- Test-62: Color & Background - color -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>color</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-62"><span style="color: green;">color</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ac33866b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-63: Color & Background - background  -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-63"><span style="background: green;">background</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-8485b329" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-64: Color & Background - background CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-64"><span style="padding: 0em 1em; background: green none left content-box;">background CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">indented green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-10a53a4e" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-65: Color & Background - background-color -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background-color</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-65"><span style="background-color: green;">background-color</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-53655345" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-66: Color & Background - background-image -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background-image</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-66"><span style="background-image: url('Resources/Public/TestMatrix/media/test-64.gif');">background-image</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-5b4eddb6" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-67: Color & Background - background-position -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background-position</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-67"><span style="background-image: url('Resources/Public/TestMatrix/media/test-64.gif'); background-position: center center; background-repeat: no-repeat;">background-position</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">small centered green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-ed148ab3" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-68: Color & Background - background-repeat -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background-repeat</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-68"><span style="background-image: url('Resources/Public/TestMatrix/media/test-64.gif'); background-repeat: no-repeat;">background-repeat</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">small square green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-5bd5da4b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-69: Color & Background - background-size CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>background-size CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-69"><span style="background-image: url('Resources/Public/TestMatrix/media/test-64.gif'); background-repeat: no-repeat; background-size: 20px 20px;">background-size
+                    CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">larger square green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-fb326a76" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-70: Color & Background - HSL Colors CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>HSL Colors CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-70"><span style="color: hsl(120, 100%, 25%);">HSL Colors CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-8362f15d" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-71: Color & Background - HSLA Colors CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>HSLA Colors CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-71"><b style="color: hsla(120, 100%, 25%, 0.5);">HSLA Colors CSS3</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text 50% opacity</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-36acd75b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-72: Color & Background - Opacity CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>Opacity CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-72"><b style="color: green; opacity: 0.5;">Opacity CSS3</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text 50% opacity</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b878c35b" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-73: Color & Background - RGBA Colors CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>RGBA Colors CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-73"><b style="color: rgba(0, 128, 0, 0.5);">RGBA Colors CSS3</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text 50% opacity</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-d47f49cc" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Box Model</b></td>
+              </tr>
+
+              <!-- Test-74: Box Model - border -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-74"><span style="border: 1px solid green;">border</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-db71ed66" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-75: Box Model - border-color -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border-color</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-75"><span style="border: 1px solid; border-color: green;">border-color</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-fc6e97cc" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-76: Box Model - border-image CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border-image CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-76"><span
+                  style="border: 1px solid; -moz-border-image: url('Resources/Public/TestMatrix/media/test-64.gif') 1 1 round; -webkit-border-image: url('Resources/Public/TestMatrix/media/test-64.gif') 1 1 round; -o-border-image: url('Resources/Public/TestMatrix/media/test-64.gif') 1 1 round; border-image: url('Resources/Public/TestMatrix/media/test-64.gif') 1 1 round;">border-image
+                    CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a4318203" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-77: Box Model - border-radius CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border-radius CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-77"><span style="border: 1px solid green; border-radius: 0.33em;">border-radius CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">curved green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-1f7394f7" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-78: Box Model - box-shadow CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>box-shadow CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-78"><span style="box-shadow: 5px 5px 5px green;">box-shadow CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green box shadow</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b4a347ed" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-79: Box Model - height -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>height</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-79"><div style="background-color: green; height: 1em; width: 1em; min-width: 1em; *zoom: 1;"></div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-c07639f2" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-80: Box Model - margin -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>margin</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-80"><span style="color: green; margin: 0 1em;">margin</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">indented text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-109dfea3" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-81: Box Model - padding -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>padding</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-81"><span style="color: green; padding: 0 1em;">padding</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">indented text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b617eed8" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-82: Box Model - width -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>width</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-82"><div style="background-color: green; height: 1em; min-height: 1em; width: 1em; *zoom: 1;"></div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a3db19e5" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-83: Box Model - max-width -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>max-width</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-83"><div style="background-color: green; max-width: 1em;">max-width</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">clipped green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-e21b6890" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-84: Box Model - min-width -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>min-width</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-84"><div style="background-color: green; min-width: 8em; width: 1em;">min-width</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">overrun green background</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-d6c81400" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Positioning &amp; Display</b></td>
+              </tr>
+
+              <!-- Test-85: Positioning & Display - bottom -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>bottom</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-85"><div style="height: 3em; position: relative;">
+                    <span style="color: green; position: absolute; bottom: 0;">bottom</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>bottom text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-dbd11a8d" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-86: Positioning & Display - clear -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>clear</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-86"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="20" height="20" style="float: left;">
+                  <div style="color: green; clear: left;">clear</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text under green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6e9b0c87" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-87: Positioning & Display - clip -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>clip</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-87"><div style="position: relative; height: 1em">
+                    <span style="position: absolute; color: green; clip: rect(0em, 2em, 0.8em, 0em);">clip</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">clipped text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-f064c3da" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-88: Positioning & Display - cursor -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>cursor</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-88"><span style="color: green; cursor: wait;">cursor</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">hourglass cursor on mouse over</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-a3368314" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-89: Positioning & Display - display -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>display</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-89"><span style="background-color: green; display: block; width: 1em; min-width: 1em; height: 1em; min-height: 1em;"></span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-576fbbe5" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-90: Positioning & Display - float -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>float</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-90"><span style="color: green; float: right;">float</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">right aligned text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-033c2272" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-91: Positioning & Display - left -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>left</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-91"><div style="height: 1em; position: relative; text-align: right;">
+                    <span style="color: green; position: absolute; left: 1em;">left</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">indented text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-d8400de4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-92: Positioning & Display - opacity -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>opacity</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-92"><b style="color: green; opacity: 0.5;">opacity</b></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text 50% opacity</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-071cf872" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-93: Positioning & Display - outline CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>outline CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-93"><span style="outline: green solid 1px;">outline CSS3</span></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-869af319" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-94: Positioning & Display - overflow -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>overflow</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-94"><div style="color: green; width: 3em; overflow: hidden;">overflow</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">clipped text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-5e86bcb9" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-95: Positioning & Display - position -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>position</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-95"><div style="position: relative; height: 1em;">
+                    <span style="color: green; position: absolute; right: 0em; top: 0em;">position</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">right aligned text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6052b8cc" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-96: Positioning & Display - resize CSS3 -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>resize CSS3</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-96"><div style="border: 1px solid green; resize: both; overflow: auto; height: 1em; width: 5em;">resize CSS3</div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">resizeable box</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6cc5a2f4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-97: Positioning & Display - right -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>right</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-97"><div style="position: relative; height: 1em;">
+                    <span style="color: green; position: absolute; right: 0; top: 0;">right</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">right aligned text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-f9003767" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-98: Positioning & Display - top -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>top</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-98"><div style="height: 3em; position: relative;">
+                    <span style="color: green; position: absolute; top: 0;">top</span>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">top text</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-c2d340f3" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-99: Positioning & Display - visibility -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>visibility</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-99"><table style="background-color: red;">
+                    <tr>
+                      <td style="background-color: green; width: 1em; min-width: 1em; height: 1em; min-height: 1em;"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="18" height="18"></td>
+                      <td style="visibility: collapse; background-color: green; width: 1em; min-width: 1em; height: 1em; min-height: 1em;"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="18" height="18" style="visibility: hidden;"></td>
+                      <td style="background-color: green; width: 1em; height: 1em;"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="18" height="18"></td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green center square missing</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-3807de0a" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-100: Positioning & Display - z-index -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>z-index</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-100"><div style="position: relative; width: 2em; min-width: 2em; height: 2em; min-height: 2em;">
+                    <div style="position: absolute; background-color: green; width: 1em; min-width: 1em; height: 1em; min-height: 1em; left: 0.5em; top: 0.5em; z-index: 1;"></div>
+                    <div style="position: absolute; background-color: red; width: 1em; min-width: 1em; height: 1em; min-height: 1em;"></div>
+                  </div></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square on red square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-717d7a8a" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Lists</b></td>
+              </tr>
+
+              <!-- Test-101: Lists - list-style-image -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>list-style-image</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-101"><ul style="list-style-image: url('Resources/Public/TestMatrix/media/test-64.gif');">
+                    <li></li>
+                  </ul></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">small green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-6c540b7d" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-102: Lists - list-style-position -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>list-style-position</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-102"><ul style="list-style-position: inside;">
+                    <li style="border: 1px solid green;"></li>
+                  </ul></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">red dot inside green border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-b9f59740" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-103: Lists - list-style-type -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>list-style-type</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-103"><ul style="list-style-type: square;">
+                    <li style="color: green;"></li>
+                  </ul></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">smaller green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-3a3844b6" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>Tables</b></td>
+              </tr>
+
+              <!-- Test-104: Tables - border-collapse -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border-collapse</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-104"><table style="background-color: red; border-collapse: collapse;">
+                    <tr>
+                      <td style="background-color: green; width: 1em; height: 1em;"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="18" height="18"></td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square without red border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-17700c8f" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-105: Tables - border-spacing -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>border-spacing</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-105"><table style="background-color: red; border-spacing: 0;">
+                    <tr>
+                      <td style="background-color: green; width: 1em; height: 1em;"><img src="Resources/Public/TestMatrix/media/test-64.gif" width="18" height="18"></td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square without red border</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-cf0675ee" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-106: Tables - caption-side -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>caption-side</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-106"><table style="background-color: red;">
+                    <caption style="color: green; caption-side: bottom;">caption-side</caption>
+                    <tr>
+                      <td style="width: 1em; height: 1em;"></td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text below red box</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-41447cb4" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-107: Tables - empty-cells -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>empty-cells</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-107"><table style="background-color: green; border-spacing: 0; empty-cells: hide;">
+                    <tr>
+                      <td style="background-color: red; width: 1em; min-width: 1em; height: 1em; min-height:1em;"></td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-7228787f" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-108: Tables - table-layout -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>table-layout</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-108"><table width="100%" style="table-layout: fixed; border-spacing: 0;">
+                    <tr>
+                      <td style="color: red;" width="0%" nowrap>table-layout</td>
+                      <td style="color: green;" width="100%" nowrap>table-layout</td>
+                    <tr>
+                  </table></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green text (over red text)</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-1e628b52" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <tr>
+                <td style="background-color: gray; color: white;" colspan="4"><b>HTML 5</b></td>
+              </tr>
+
+              <!-- Test-109: HTML 5 - canvas -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>canvas</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-109"><canvas id="canvas" width="18" height="18">canvas<script type="text/javascript" src="Resources/Public/TestMatrix/js/test-109.js"></script></canvas></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">green square</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-d84c49a7" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-110: HTML 5 - audio -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>audio</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-110"><audio width="100%" height="18" style="width: 100%; height: 18px;" controls>audio
+                  </audio></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">audio controls</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-4e2bcae6" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+              <!-- Test-111: HTML 5 - video -->
+              <tr>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" nowrap>video</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;color:red;" id="test-111"><video width="100%" height="50" style="width: 100%; height: 50px;" controls>video
+                  </video></td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;">video controls</td>
+                <td style="border-bottom: 1px dotted gray;padding: 0.5em;" id="hash-668b4945" nowrap><span style="color: green;">PASS</span></td>
+              </tr>
+
+            </tbody>
+
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>

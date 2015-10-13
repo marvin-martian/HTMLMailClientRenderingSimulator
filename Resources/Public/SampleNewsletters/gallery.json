@@ -1,0 +1,478 @@
+{
+  "themes": [
+    {
+      "title": "oxygen",
+      "description": "Oxygen is a modern, fresh design that can incorporate any brand and work for every type of transactional email.",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/WYWd0GAUTRSINU7Ifk1E_confirm.jpg",
+          "litmus_url": "https://litmus.com/pub/909e54f/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/DVxhnNowQha4JJajcAn9_invite.jpg",
+          "litmus_url": "https://litmus.com/pub/00aaf1e/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/AZxkDqnsTp6mWFP3xtET_invoice.jpg",
+          "litmus_url": "https://litmus.com/pub/4911554/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/OLqQkRbeQGC5gi2abFpN_ping.jpg",
+          "litmus_url": "https://litmus.com/pub/690e1bd/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/HQE7dlTETEieg295a4jN_progress.jpg",
+          "litmus_url": "https://litmus.com/pub/852a932/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/R0jmXOT2g3HSczlVFwAZ_reignite.jpg",
+          "litmus_url": "https://litmus.com/pub/cf4d4ce/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/she3eogQIiIjHJ4rySwy_survey.jpg",
+          "litmus_url": "https://litmus.com/pub/3afe4c1/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/O4zRrhyWQuGuysEstSkL_upsell.jpg",
+          "litmus_url": "https://litmus.com/pub/6e3329a/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/2RwX33oARNmqP4qEmtfg_welcome.jpg",
+          "litmus_url": "https://litmus.com/pub/c45d48a/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "neopolitan",
+      "description": "Neopolitan is a lightweight powerhouse that’s perfect for mobile devices. Its clean, minimal style is great for every type of transactional email." ,
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/KL5ZJFrjTFuR0P6KbLbU",
+          "litmus_url": "https://litmus.com/pub/6ae08c0/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/lcKe68TaeKW6pAsn4YWA",
+          "litmus_url": "https://litmus.com/pub/effde1e/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/VE1ShjHDRmekGhHnjCSO",
+          "litmus_url": "https://litmus.com/pub/d5d4445/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/Ec8XyHhPQ9eNr5Rs42Y2",
+          "litmus_url": "https://litmus.com/pub/37d93a6/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/Q6AFQOR4yAp0ZcYzdaxw",
+          "litmus_url": "https://litmus.com/pub/96e1885/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/SGGVMSCQyCRqzMsHufjQ",
+          "litmus_url": "https://litmus.com/pub/0878247/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/YICSQ4l5Q4iG3TI5GTkG",
+          "litmus_url": "https://litmus.com/pub/f3332b1/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/xa6aChdTUThsXN0YETQw",
+          "litmus_url": "https://litmus.com/pub/0bb0afe/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/5mxuaGNQQtSlG8Tp2EXB",
+          "litmus_url": "https://litmus.com/pub/d6765fd/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "skyline",
+      "description": "Chic, modern scenes combined with strong lines to achieve the professionalism that your transactional emails crave.",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/YGncYIkFRxOtYKYXMavZ",
+          "litmus_url": "https://litmus.com/pub/146794c/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/ZA0NzD9dSESSMtYYwrdN",
+          "litmus_url": "https://litmus.com/pub/0e833b3/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/iR0iJaqQSKmvFR7Qx0jp",
+          "litmus_url": "https://litmus.com/pub/bd87cb8/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/k9GTEtTQ7isksQ0bKT6k",
+          "litmus_url": "https://litmus.com/pub/49afc3c/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/uy1fD65jTVK7IPbNJKUS",
+          "litmus_url": "https://litmus.com/pub/906b799/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/PFBrcgjhT8mHtt0qAH4a",
+          "litmus_url": "https://litmus.com/pub/cb2f984/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/hb5iDWBQhKwtYo1OakIQ",
+          "litmus_url": "https://litmus.com/pub/f4b1c60/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/yEFcLyqASzy6wNhDGK3X",
+          "litmus_url": "https://litmus.com/pub/d19e4f3/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/tX320JiZS1OGI2cY6Aw1",
+          "litmus_url": "https://litmus.com/pub/dfa156a/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "go",
+      "description": "Go is flexible two-column template with a simple, flat design meant to highlight your email’s call-to-action and social media links." ,
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/k8UTZYobRfCiO9PULctA",
+          "litmus_url": "https://litmus.com/pub/e71e483/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/py3UlSqZQIG9aaUKA3wb",
+          "litmus_url": "https://litmus.com/pub/b49d6a8/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/nYFlpb4ETfm9yrYfxALA",
+          "litmus_url": "https://litmus.com/pub/b579fd0/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/vUIKhEDHQ36XyOinJnxn",
+          "litmus_url": "https://litmus.com/pub/df5bef6/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/TrcNRfQdKm7dTMHAK4eA",
+          "litmus_url": "https://litmus.com/pub/590f82a/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/Wep0L1XORUO62V2mGURA",
+          "litmus_url": "https://litmus.com/pub/92e39c0/screenshots"
+
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/TW0m1tKLTo2VCFEUdDFJ",
+          "litmus_url": "https://litmus.com/pub/ccf9961/screenshots"
+
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/7ADjAffpSeg7T5AzaGeO",
+          "litmus_url": "https://litmus.com/pub/e677379/screenshots"
+
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/4eot1VHsRLudKlxUuoax",
+          "litmus_url": "https://litmus.com/pub/afb27e1/screenshots"
+
+        }
+      ]
+    },
+    {
+      "title": "sunday",
+      "description": "Sunday is a clean and modern email template for desktop and mobile, great for updates, receipts, and promotions." ,
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/FG0bLYoWTCCKUpk9j2K3",
+          "litmus_url": "https://litmus.com/pub/540269e/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/M7kqdMpxToGjKjpHtZpV",
+          "litmus_url": "https://litmus.com/pub/043cd51/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/L4t7Hb9IQjGKFGetWDmz",
+          "litmus_url": "https://litmus.com/pub/34d7d47/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/QsOvFoNTDCEmuXMBLaZw",
+          "litmus_url": "https://litmus.com/pub/b52613a/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/T6TtOtARS8wBQdebC2Uw",
+          "litmus_url": "https://litmus.com/pub/0768f5f/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/zlFlHfGRBCuPMOzWUB8g",
+          "litmus_url": "https://litmus.com/pub/e4adf0a/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/aOM0gTabRvK3nSHnlUdH",
+          "litmus_url": "https://litmus.com/pub/ddd785a/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/gi39jVpBRN6F6UJFISUH",
+          "litmus_url": "https://litmus.com/pub/514fa25/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/nhuM2SNpTz67sXMPjmrU",
+          "litmus_url": "https://litmus.com/pub/af9ab571/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "airmail",
+      "description": "Bring back that nostalgic airmail feeling with this theme.",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/SLbH3jOTSG6yX7yrGnRw",
+          "litmus_url": "https://litmus.com/pub/0bdd681/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/G7gNHUQFTLSTF5qqSIU6",
+          "litmus_url": "https://litmus.com/pub/a5ea6dd/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/uuBDpnqyScWqIZ96Am1s",
+          "litmus_url": "https://litmus.com/pub/851d334/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/6yPKVR1RQXGN6xdlPWHn",
+          "litmus_url": "https://litmus.com/pub/b1f5875/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/PpqGNn9oSRG7GChhs7MO",
+          "litmus_url": "https://litmus.com/pub/d63bf43/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/bJSsrzrvRlCZZcfRebF1",
+          "litmus_url": "https://litmus.com/pub/9fc658c/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/bhvWTT7sTXWBG7WcW1tI",
+          "litmus_url": "https://litmus.com/pub/221d3c1/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/hVrEcPUESaDeihOAcn9a",
+          "litmus_url": "https://litmus.com/pub/dadda27/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/0mPjvpkSL27GZI8bPt8K",
+          "litmus_url": "https://litmus.com/pub/426d364/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "cleave",
+      "description": "",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/EvyW8TAmR0S54AwTJauU",
+          "litmus_url": "https://litmus.com/pub/d13446b/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/tyiDWV54TtWrPl3Ji5oA",
+          "litmus_url": "https://litmus.com/pub/1eec5a0/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/veVYHj2BShuqmrjS0kIa",
+          "litmus_url": "https://litmus.com/pub/f799420/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/dWSRN2f6SA6A9DHReA96",
+          "litmus_url": "https://litmus.com/pub/cad0bc8/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/7O1W9U7gTFWnwcQdvTNO",
+          "litmus_url": "https://litmus.com/pub/7b14e06/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/NU2HQ8YyR9yOXTbOJDGe",
+          "litmus_url": "https://litmus.com/pub/206de25/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/QWphnG4TRIqs0mOhIl9w",
+          "litmus_url": "https://litmus.com/pub/95e3edc/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/vf9EPV38SHmJhEP1y6GW",
+          "litmus_url": "https://litmus.com/pub/8277a76/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/CtAIYcthQjimxSlPdtk5",
+          "litmus_url": "https://litmus.com/pub/9a759a7/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "narrative",
+      "description": "",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/J6tSUr8QHarnbi1BBkKQ",
+          "litmus_url": "https://litmus.com/pub/0336c44/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/rtXTYazjS72UDKzUycup",
+          "litmus_url": "https://litmus.com/pub/a426d45/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/WcJdzW1SbSnLH1OG5K0g",
+          "litmus_url": "https://litmus.com/pub/bcf6c17/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/XqNGS6l1TLuqkbj64Ds2",
+          "litmus_url": "https://litmus.com/pub/d873265/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/KkcNhD9SDqzcHMXROsHI",
+          "litmus_url": "https://litmus.com/pub/495e494/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/N3oq9G4TQ16nazsoTVUA",
+          "litmus_url": "https://litmus.com/pub/43b09dc/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/UE5rc6ZbSku9DfcMxkeB",
+          "litmus_url": "https://litmus.com/pub/d439df7/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/r3BNAB5yRv20qYhV8Xwb",
+          "litmus_url": "https://litmus.com/pub/7cbd8da/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/PdWQsj1kTymCnBwdBBst",
+          "litmus_url": "https://litmus.com/pub/0e27058/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "zen-flat",
+      "description": "",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/T1tAxQzSKGQFwTjfNeNH",
+          "litmus_url": "https://litmus.com/pub/76cb26b/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://www.filepicker.io/api/file/RULLAfBQhS0SNCb5diIw",
+          "litmus_url": "https://litmus.com/pub/5a5078e/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://www.filepicker.io/api/file/KdecgjLCTQeaFlGXNbVv",
+          "litmus_url": "https://litmus.com/pub/2cda368/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://www.filepicker.io/api/file/Egr3gVszRW24ySieCuvr",
+          "litmus_url": "https://litmus.com/pub/4b68596/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.filepicker.io/api/file/7PvaG54SKakE8ZFqBsQh",
+          "litmus_url": "https://litmus.com/pub/a4e1289/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://www.filepicker.io/api/file/ZhDrRAxQe6U4lo1uh0xg",
+          "litmus_url": "https://litmus.com/pub/aa95bd5/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://www.filepicker.io/api/file/ge3cAPlTrmTY8JThQJuz",
+          "litmus_url": "https://litmus.com/pub/a6cc929/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://www.filepicker.io/api/file/FNXKyRIKTjqjXEZPGtXC",
+          "litmus_url": "https://litmus.com/pub/1cb3843/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://www.filepicker.io/api/file/mDUovpmSH21StHOElZAt",
+          "litmus_url": "https://litmus.com/pub/f560666/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "plain-jane",
+      "description": "",
+      "templates": [
+        {
+          "title": "plain",
+          "image_url": "https://www.filepicker.io/api/file/ni9VWH2vTN2l7pBubvJG",
+          "litmus_url": "https://litmus.com/pub/680e295/screenshots"
+        }
+      ]
+    }
+  ]
+}
