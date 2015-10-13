@@ -8,7 +8,7 @@ rendering nuances of numerous mail clients in a modern web browser.
 A GUI is supplied as an example usage of the library.
 
 **Screenshot**
-    .. image:: Documentation/Images/gui-screenshot-_small.png
+    .. image:: Documentation/Images/gui-screenshot-small.png
 
 **Documentation**
     For more info read the ``Documentation`` 
