@@ -21,5 +21,5 @@ A GUI is supplied as an example usage of the library.
     or later
 
 **Getting Involved**
-   Please feel free to submit pull-requests or issues. I will have a road-map to 
-   version 2 up relatively soon.
+   Please feel free to submit pull-requests or issues. There is a project roadmap 
+   available in the `wiki <https://github.com/marvin-martian/HTMLMailClientRenderingSimulator/wiki/Roadmap>`_.
